@@ -90,3 +90,114 @@
 // let b = prompt('Введите число b(a>b)')
 // let nume = Math.floor(a / b)
 // alert(`Количество отрезков b, размещенных на отрезке а=${nume}`)
+
+// let a = prompt('Введите число а(a>b)')
+// let b = prompt('Введите число b(a>b)')
+// let nume = a % b
+// alert(`Длина незанятой части отрезка а=${nume}`)
+
+// let a = prompt('Введите двузначное число:')
+// let left = Math.floor(a/10)
+// let right = a%10 
+// alert(`Левая цифра числа:${left}, правая цифра числа:${right}`)
+
+// let a = prompt('Введите двузначное число:')
+// let left = Math.floor(a/10)
+// let right = a%10 
+// let sum = left + right
+// let product = left * right
+// alert(`Сумма цифр, составляющих это число=${sum}, их произведение=${product} `)
+
+// let a = prompt('Введите двузначное число:')
+// let left = Math.floor(a/10)
+// let right = a % 10
+// alert("Число, полученное при перестановке цифр данного числа=" + `${right}` + `${left}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// alert(`Сотни этого числа=${first}`)
+
+                                                                                  //Integer10
+
+// let a = prompt('Введите трёхзначное число:')
+// let second = Math.floor(a/10%10)                                                               
+// let last = a%100%10
+// alert(`Последняя цифра данного числа (единицы)=${last}, средняя цифра данного числа(десятки)=${second}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// let second = Math.floor(a/10%10)
+// let last = a%100%10
+// let sum = first + second + last
+// let product = first * second * last
+// alert(`Сумма цифр данного числа=${sum}, их произвдение=${product}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// let second = Math.floor(a/10%10)
+// let last = a%100%10
+// alert("Число, полученное при прочтеннии данного справа налево=" + `${last}` + `${second}` + `${first}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// let second = Math.floor(a/10%10)
+// let last = a%100%10
+// alert("Результат, если в этом числе вычеркнуть первую слева цифру и приписать её в конец=" +  `${second}` + `${last}` + `${first}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// let second = Math.floor(a/10%10)
+// let last = a%100%10
+// alert("Результат, если в этом числе вычеркнуть первую справа цифру и приписать её слева=" +  `${last}` + `${first}` + `${second}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// let second = Math.floor(a/10%10)
+// let last = a%100%10
+// alert("Число, полученное при перестановке цифр сотен и десятков исходного числа=" + `${second}` + `${first}` + `${last}`)
+
+// let a = prompt('Введите трёхзначное число:')
+// let first = Math.floor(a/100)
+// let second = Math.floor(a/10%10)
+// let last = a%100%10
+// alert("Число, полученное при перестановке цифр десятков и единиц исходного числа=" + `${first}` + `${last}` + `${second}`)
+
+// let a = prompt('Введите число, большее 999:')
+// let hubdred = Math.floor(a/100)%10
+// alert(`Цифра, соответствующая разряду сотен в записи этого числа=${hubdred}`)
+
+// let a = prompt('Введите число, большее 999:')
+// let thousand = Math.floor(a/1000)%100
+// alert(`Цифра, соответствующая разряду тысяч в записи этого числа=${thousand}`)
+
+// let n = prompt('Введите количество секунд, прошедшее с начала суток:')
+// let min = Math.floor(n/60)
+// alert(`Количество полных минут, прошедших с начала суток=${min}`)
+                    
+                                                                                         //Integer20
+
+// let n = prompt('Введите количество секунд, прошедшее с начала суток:')
+// let hour = Math.floor(n/3600)
+// alert(`Количество полных часов, прошедших с начала суток=${hour}`)
+
+// let n = prompt('Введите количество секунд, прошедшее с начала суток:')
+// let min = n%60
+// alert(`Количество секунд, прошедших с начала последней минуты=${min}`)
+
+// let n = prompt('Введите количество секунд, прошедшее с начала суток:')
+// let hour = n%3600
+// alert(`Количество секунд, прошедших с начала последнего часа=${hour}`)
+
+// let n = prompt('Введите количество секунд, прошедшее с начала суток:')
+// let min = Math.floor(n/60%3600)
+// alert(`Количество полных минут, прошедших с начала последнего часа=${min}`)
+
+// let k = prompt('Введите целое число К, лежащее в диапазоне 1-365')
+// let daynum = k%7
+// alert(`Номер дня недели:${daynum}`)
+                                                 
+//???25
+
+let k = prompt('Введите целое число К, лежащее в диапазоне 1-365')
+let daynum = k%7
+alert(`Номер дня недели:${daynum}`)
